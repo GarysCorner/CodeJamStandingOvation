@@ -1,3 +1,9 @@
+//File:		CodeJamStandingOvation.java
+//Author:	Gary Bezet
+//Date:		2016-06-21
+//Desc:		Designed to solve past google codejam problem "Standing Ovation" qualification round 2015
+//Problem:	https://code.google.com/codejam/contest/6224486/dashboard
+//Results:	A-small-practice.in: 29ms       A-large-practice.in: 33ms
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -5,12 +11,7 @@ import java.io.FileReader;
 import java.io.PrintStream;
 
 
-//File:		CodeJamStandingOvation.java
-//Author:	Gary Bezet
-//Date:		2016-06-21
-//Desc:		Designed to solve past google codejam problem "Standing Ovation" qualification round 2015
-//Problem:	https://code.google.com/codejam/contest/6224486/dashboard
-//Results:	N/A
+
 
 
 public class CodeJamStandingOvation {
