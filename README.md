@@ -1,14 +1,6 @@
 #Problem A. Standing Ovation
 ##From https://code.google.com/codejam/contest/6224486/dashboard
-This contest is open for practice. You can try every problem as many times as you like, though we won't keep track of which problems you solve. Read the Quick-Start Guide to get started.
-Small input
-7 points	
-Solve A-small
-Judge's response for last submission: Correct.
-Large input
-10 points	
-Solve A-large
-Judge's response for last submission: Correct.
+
 Problem
 
 It's opening night at the opera, and your friend is the prima donna (the lead female singer). You will not be in the audience, but you want to make sure she receives a standing ovation -- with every audience member standing up and clapping their hands for her.
@@ -27,39 +19,35 @@ Output
 For each test case, output one line containing "Case #x: y", where x is the test case number (starting from 1) and y is the minimum number of friends you must invite.
 
 Limits
-
+```
 1 ≤ T ≤ 100.
+```
 Small dataset
-
+```
 0 ≤ Smax ≤ 6.
-
+```
 Large dataset
-
+```
 0 ≤ Smax ≤ 1000.
-
+```
 Sample
 
 
-###Input
+###Input 
+``` 	
 4
-
 4 11111
-
 1 09
-
 5 110011
-
 0 1
-
+```
 ###Output
+```
 Case #1: 0
-
 Case #2: 1
-
 Case #3: 2
-
 Case #4: 0
-
+```
 
 In Case #1, the audience will eventually produce a standing ovation on its own, without you needing to add anyone -- first the audience member with Si = 0 will stand up, then the audience member with Si = 1 will stand up, etc.
 
